@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Htl_Ideal Suite">
+	<test thread-count="5" name="NDMS Workflows">
+		<classes>
+			<class name="ndmsworkflow.NDMSWorkFlows">
+
+				<methods>
+				    <exclude name="loginLogoutInNDMSApp" />
+				    <exclude name="forgotPasswordInNDMSApp" />
+				    <exclude name="hambrugerMenuNavigationInNDMSApp" />
+				    <exclude name="dashboardNavigationInNDMSApp" />
+				    <exclude name="driveNavigationInNDMSApp" />
+				    <exclude name="homeVisitSectionInNDMSApp" />
+				    
+				    <exclude name="showroomVisitSectionInNDMSApp" />
+				    <exclude name="aboutNavigationNDMS" />
+				    <exclude name="helpNavigationNDMS" />
+				    <exclude name="myProfileNavigationInNDMS" />
+				    <include name="enquiryFliterNavigationInNDMSApp" />	
+				    
+				    <exclude name="enquirySearchNavigationInNDMSApp" />	
+				    <exclude name="enquiryCreateNavigationInNDMSApp" />	
+				    <exclude name="enquiryDetailsNavigationInNDMSApp" />	
+				    <exclude name="addFollowupInNDMSApp" />
+				    <exclude name="testDriveInNDMSApp" />
+				    
+				    <exclude name="myCalendarInNDMSApp" />
+				    <exclude name="stockAndReportsInNDMSApp" />
+				    <exclude name="priceInNDMSApp" />
+				    <exclude name="emiCalculatorInNDMSApp" />
+				</methods>
+				
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
